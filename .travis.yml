@@ -1,0 +1,10 @@
+sudo: false
+language: java
+jdk:
+- oraclejdk8
+script:
+- ./run.sh
+notifications:
+  email:
+    - pruthula@gmail.com
+  on_success: always
